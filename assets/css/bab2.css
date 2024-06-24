@@ -1,0 +1,21 @@
+/* Style Table */
+table {
+    border:1px solid #8f8f8f;
+    border-collapse:collapse;
+    padding:5px;
+box-shadow: 11px 11px 11px -7px rgba(0,0,0,0.1);
+}
+table th {
+    border:1px solid #8f8f8f;
+    padding:5px;
+    background: #e28d60;
+    color: #ffffff;
+    text-align:center;
+}
+table td {
+    border:1px solid #8f8f8f;
+    padding:5px;
+    padding-right: 6rem;
+    background: #f9e1e1;
+    color: #313030;
+}

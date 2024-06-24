@@ -1,0 +1,15 @@
+   
+/* Custom styles for the navigation bar */
+.navbar-custom {
+    background-color: #007bff; /* Change the background color to blue */
+    color: #fff; /* Change the text color to white */
+    
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff; /* Change the brand text color to white */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff; /* Change the link text color to white */
+}

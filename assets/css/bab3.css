@@ -1,0 +1,20 @@
+/* Screen Mobile */
+@media screen and (max-width: 480px){ 
+    .r-materi{
+        width: 360px;
+        height: 202.5px;
+    }
+}
+
+/* Screen Ipad */
+@media (min-width: 481px) and (max-width: 1024px){
+    .r-materi{
+        width: 690px;
+        height: 388.125px;
+    }
+}
+
+.container{
+    width: 100%;
+    border: none;
+}

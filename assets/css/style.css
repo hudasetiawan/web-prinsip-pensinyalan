@@ -1,0 +1,16 @@
+
+
+  /* Style the "Go Somewhere" buttons */
+  .btn-primary {
+    margin-top: 10px; /* Memberi ruang di atas tombol */
+  }
+
+  /* Navbar style */
+  .navbar {
+    margin-bottom: 20px; /* Memberi ruang di bawah navbar */
+  }
+
+  /* Custom style for the search input */
+  .form-control {
+    width: 300px; /* Mengatur lebar input search */
+  }

@@ -1,0 +1,85 @@
+/* Menambahkan styling pada navbar */
+
+.navbar {
+    padding: 10px 20px; /* Tambahkan ruang di sekitar teks */
+    box-shadow: 0px 1px 10px #999;
+    font-family: "open sans", sans-serif;
+    font-weight: 600;
+    align-items: center;
+}
+.navbar-brand{
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-brand:hover{
+    color: #9A3B3B;
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+.nav-link{
+    color: white;
+}
+
+.nav-link.active {
+    color: #9A3B3B !important;
+}
+
+.nav-link:hover{
+    color: #9A3B3B;
+}
+/* Menambahkan styling pada card */
+.card{
+    box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.1);
+    width: 17rem; /* Sesuaikan dengan lebar yang diinginkan */
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.button-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+}
+.button-card a{
+    width: 100%;
+    
+}
+.btn{
+    background-color: #ff6b63;
+    color: white;
+}
+.btn:hover{
+    background-color: #e24d45;
+    color: white;
+}
+.btn-primary.float-right {
+    align-self: flex-end;
+}   
+
+#dropdown-user:hover{
+    color: #9A3B3B !important;
+}
+.dropdown-item:active{
+    background-color: #e6e1e1;
+    color: black;
+}
+
+#dropdown-logout:active{
+    background-color: #e03939;
+    color: white;
+}

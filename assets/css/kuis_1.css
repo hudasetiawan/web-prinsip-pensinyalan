@@ -1,0 +1,22 @@
+.iframe-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Gunakan tinggi yang diinginkan atau 100% jika ingin mengisi seluruh tinggi viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iframe-wrapper {
+    position: relative;
+    width: 80%; /* Sesuaikan lebar iframe */
+    height: auto; /* Sesuaikan tinggi iframe jika tidak 100% */
+  }
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
